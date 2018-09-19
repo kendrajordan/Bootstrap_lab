@@ -1,0 +1,22 @@
+body{
+  background-color: #7AA1AC;
+}
+.body-position{
+  position:relative;
+  display: flex;
+  justify-content: center;
+}
+.card > img{
+  height: 300px;
+}
+.reset{
+  position: relative;
+  float: left;
+}
+.submit{
+  position: relative;
+  float:right;
+}
+h2{
+  text-align: center;
+}
