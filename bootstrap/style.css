@@ -1,10 +1,22 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Candal');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+html,body{
   background-color: #7AA1AC;
 }
 .body-position{
   position:relative;
   display: flex;
   justify-content: center;
+}
+.top-img{
+  display: flex;
+  justify-content: center;
+}
+.top-image{
+  width:18rem;
+  height: 28rem;
+  border-radius: 20px;
 }
 .card > img{
   height: 300px;
@@ -17,6 +29,31 @@ body{
   position: relative;
   float:right;
 }
-h2{
+h2, h1, .card-title,thead,label{
+  max-width: 100%;
   text-align: center;
+  color:#870c25;
+  font-family: 'Candal', sans-serif;
+}
+.container-fluid.row {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+tr, .card-text{
+  font-family: 'Open Sans', sans-serif;
+
+}
+.card{
+  margin: 0;
+  padding: 0;
+}
+.card-body{
+  background-color: #DBD56E;
+  max-width: 100%;
+}
+form{
+  background-color: white;
 }
